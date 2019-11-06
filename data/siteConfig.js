@@ -58,7 +58,7 @@ module.exports = {
       },
       duration: '2 years 11 months',
       occupation: "Programmer Analyst",
-      description: "Development and integration of web applications for Healthcare andB anking and Finacial Services domains."
+      description: "Development and integration of web applications for Healthcare and Banking and Finacial Services domains."
     },
     /* ... */
   ],
