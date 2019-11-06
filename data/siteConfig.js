@@ -10,7 +10,7 @@ module.exports = {
                       Being web development for more than 4 years, I always keep pace with new technologies.
                       In 2019, I started exploring mobile apps and fascinated by react-native. Throughout my career,
                        I have worked in domains like Insurance, Healthcare, Banking and Finacial Services.<br />
-                      During my leisure hours, I watch movies or play soccer.`,
+                      During my leisure hours, I watch movies and play soccer.`,
   skills: [
     {
       name: 'HTML',
