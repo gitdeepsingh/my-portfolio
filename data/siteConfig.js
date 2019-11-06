@@ -56,7 +56,7 @@ module.exports = {
         month: 'feb',
         year: '2016'
       },
-      duration: '2 yr e 11 mos',
+      duration: '2 years 11 months',
       occupation: "Programmer Analyst",
       description: "Development and integration of web applications for Healthcare andB anking and Finacial Services domains."
     },

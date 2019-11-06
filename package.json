@@ -41,5 +41,12 @@
   "devDependencies": {
     "gh-pages": "2.0.1",
     "prettier": "1.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santosfrancisco/gatsby-starter-cv"
+  },
+  "bugs": {
+    "url": "https://github.com/santosfrancisco/gatsby-starter-cv/issues"
   }
 }
