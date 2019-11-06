@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hello! I\'m Deep!',
+  siteTitle: 'Welcome! I code for a living',
   siteDescription: `My portfolio resume`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Deep Singh',
@@ -7,9 +7,9 @@ module.exports = {
   githubUsername: 'gitdeepsingh',
   authorAvatar: '/images/avatar.png',
   authorDescription: `I am passinate about coding and love to explore how softwares are engineered.<br />
-                      Being web development for more than 4 years, I always keep pace with new technologies.
-                      In 2019, I started exploring mobile apps and fascinated by react-native. Throughout my career,
-                       I have worked in domains like Insurance, Healthcare, Banking and Finacial Services.<br />
+                      Being in web development for more than 4 years, I always keep pace with new technologies.
+                      In 2019, I started exploring mobile apps and became fascinated by react-native. Throughout my career,
+                      I have worked in domains like Insurance, Healthcare, Banking and Finacial Services.<br />
                       During my leisure hours, I watch movies and play soccer.`,
   skills: [
     {
