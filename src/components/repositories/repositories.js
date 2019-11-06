@@ -17,13 +17,13 @@ class Repositories extends React.Component {
       status: 'loading'
     }
   }
-  async componentDidMount () {
+  async componentDidMount() {
     const repos = await jsonFetch(endpoint);
     if (repos.json && repos.json.length) {
       this.setState({ repos: repos.json, status: 'ready' })
     }
   }
-  render () {
+  render() {
     const { status } = this.state
     return (
       <div className={this.props.className}>
@@ -41,7 +41,7 @@ class Repositories extends React.Component {
                       </a>
                       <div>{repo.description}</div>
                       <div className="repositories__repo-date">
-                        Updated: {new Date(repo.updated_at).toUTCString()}
+                        {repo.homepage && <a href={repo.homepage} target="_blank">Website Link</a>}
                       </div>
                       <div className="repositories__repo-star">
                         ★ {repo.stargazers_count}
