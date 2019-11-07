@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Welcome! I code for a living',
   siteDescription: `My portfolio resume`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  keyWords: ['deepsingh', 'react', 'curriculum', 'deep singh', 'gatsby'],
   authorName: 'Deep Singh',
   twitterUsername: '@itzdeepsingh',
   githubUsername: 'gitdeepsingh',
@@ -14,29 +14,26 @@ module.exports = {
   skills: [
     {
       name: 'HTML',
-      level: 85
+      level: 80
     },
     {
       name: 'CSS',
       level: 80
-    },
-    {
-      name: 'Javascript',
-      level: 75
-    },
-    {
+    }, {
       name: 'React',
       level: 75
-    },
-    {
-      name: 'React-Native',
-      level: 40
-    },{
+    }, {
       name: 'Angular',
-      level: 45
-    },{
-      name: 'NodeJs',
       level: 50
+    }, {
+      name: 'Javascript',
+      level: 75
+    }, {
+      name: 'React-Native',
+      level: 50
+    }, {
+      name: 'NodeJs',
+      level: 60
     },
   ],
   jobs: [
@@ -48,8 +45,8 @@ module.exports = {
       },
       duration: null,
       occupation: "Software Engineer",
-      description:"Working as front-end developer for desktop and android applications for Insurance market."
-  
+      description: "Working as front-end developer for desktop and android applications for Insurance market."
+
     }, {
       company: "Cognizant Technology Solutions",
       begin: {
