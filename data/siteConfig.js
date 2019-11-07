@@ -72,7 +72,7 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/deepsingh7337675512/",
     github: "https://github.com/gitdeepsingh",
     email: "deepsinghh.js@gmail.com",
-    npm: "https://www.npmjs.com/settings/deepsingh/packages"
+    npm: "https://www.npmjs.com/~deepsingh"
   },
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
