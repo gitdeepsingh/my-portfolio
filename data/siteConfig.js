@@ -5,6 +5,7 @@ module.exports = {
   authorName: 'Deep Singh',
   twitterUsername: '@itzdeepsingh',
   githubUsername: 'gitdeepsingh',
+  npmUsername: 'deepsingh',
   authorAvatar: '/images/avatar.png',
   authorDescription: `I am passinate about coding and love to explore how softwares are engineered.<br />
                       Being in web development for more than 4 years, I always keep pace with new technologies.
@@ -59,11 +60,19 @@ module.exports = {
     },
     /* ... */
   ],
+  npmPackages: [
+    {
+      name: 'react-simple-search',
+      description: 'A very simple search component for reactjs',
+      link: 'https://www.npmjs.com/package/react-simple-search'
+    }
+  ],
   social: {
     twitter: "https://twitter.com/@itzdeepsingh",
     linkedin: "https://www.linkedin.com/in/deepsingh7337675512/",
     github: "https://github.com/gitdeepsingh",
-    email: "deepsinghh.js@gmail.com"
+    email: "deepsinghh.js@gmail.com",
+    npm: "https://www.npmjs.com/settings/deepsingh/packages"
   },
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',

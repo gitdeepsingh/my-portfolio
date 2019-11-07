@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter, FaNpm } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 
 import Layout from '../components/layout'
@@ -12,6 +12,7 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
+import OpenSource from '../components/opensource'
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -49,13 +50,16 @@ class Home extends React.Component {
                   alt='user avatar'
                 />
                 <div className="social">
-                  {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
+                  {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github} target="_blank">
                     <FaGithub className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
+                  {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin} target="_blank">
                     <FaLinkedin className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
+                  {siteConfig.social.npm && <a className="social-link npm" href={siteConfig.social.npm} target="_blank">
+                    <FaNpm className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter} target="_blank">
                     <FaTwitter className="social-icon" size="32" />
                   </a>}
                   {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
@@ -76,6 +80,7 @@ class Home extends React.Component {
             <Timeline />
             <Separator />
             <Repositories />
+            <OpenSource />
           </Container>
         </Wrapper>
       </Layout>
@@ -124,6 +129,10 @@ export default styled(Home)`
   }
 
   a.social-link.email:hover {
+    color: #c23a2b;
+  }
+
+  a.social-link.npm:hover {
     color: #c23a2b;
   }
 `
