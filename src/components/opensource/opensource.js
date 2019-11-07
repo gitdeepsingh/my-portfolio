@@ -1,28 +1,8 @@
 import React from 'react'
-import jsonFetch from "simple-json-fetch";
 import styled from 'styled-components'
 import siteConfig from '../../../data/siteConfig'
 
-import Loader from '../loader'
-
-const endpoint =
-    `https://www.npmjs.com/settings/${siteConfig.npmUsername}/packages`
-
 class OpenSource extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            packages: [],
-            status: 'loading'
-        }
-    }
-    async componentDidMount() {
-        const packages = await jsonFetch(endpoint);
-        console.log('pakgs', packages)
-        // if (packages.json && repos.json.length) {
-        //   this.setState({ repos: repos.json, status: 'ready' })
-        // }
-    }
 
     render() {
         return (
