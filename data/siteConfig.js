@@ -1,10 +1,11 @@
 module.exports = {
   siteTitle: 'Welcome! I code for a living',
   siteDescription: `My portfolio resume`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
+  keyWords: ['deepsingh', 'react', 'curriculum', 'deep singh', 'gatsby'],
   authorName: 'Deep Singh',
   twitterUsername: '@itzdeepsingh',
   githubUsername: 'gitdeepsingh',
+  npmUsername: 'deepsingh',
   authorAvatar: '/images/avatar.png',
   authorDescription: `I am passinate about coding and love to explore how softwares are engineered.<br />
                       Being in web development for more than 4 years, I always keep pace with new technologies.
@@ -14,29 +15,26 @@ module.exports = {
   skills: [
     {
       name: 'HTML',
-      level: 85
+      level: 80
     },
     {
       name: 'CSS',
       level: 80
-    },
-    {
-      name: 'Javascript',
-      level: 75
-    },
-    {
+    }, {
       name: 'React',
       level: 75
-    },
-    {
-      name: 'React-Native',
-      level: 40
-    },{
+    }, {
       name: 'Angular',
-      level: 45
-    },{
-      name: 'NodeJs',
       level: 50
+    }, {
+      name: 'Javascript',
+      level: 75
+    }, {
+      name: 'React-Native',
+      level: 50
+    }, {
+      name: 'NodeJs',
+      level: 60
     },
   ],
   jobs: [
@@ -48,8 +46,8 @@ module.exports = {
       },
       duration: null,
       occupation: "Software Engineer",
-      description:"Working as front-end developer for desktop and android applications for Insurance market."
-  
+      description: "Working as front-end developer for desktop and android applications for Insurance market."
+
     }, {
       company: "Cognizant Technology Solutions",
       begin: {
@@ -62,11 +60,19 @@ module.exports = {
     },
     /* ... */
   ],
+  npmPackages: [
+    {
+      name: 'react-simple-search',
+      description: 'A very simple search component for reactjs',
+      link: 'https://www.npmjs.com/package/react-simple-search'
+    }
+  ],
   social: {
     twitter: "https://twitter.com/@itzdeepsingh",
     linkedin: "https://www.linkedin.com/in/deepsingh7337675512/",
     github: "https://github.com/gitdeepsingh",
-    email: "deepsinghh.js@gmail.com"
+    email: "deepsinghh.js@gmail.com",
+    npm: "https://www.npmjs.com/settings/deepsingh/packages"
   },
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',

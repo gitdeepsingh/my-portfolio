@@ -40,7 +40,7 @@ class Repositories extends React.Component {
                         <strong>{repo.name}</strong>
                       </a>
                       <div>{repo.description}</div>
-                      <div className="repositories__repo-date">
+                      <div className="repositories__repo-homepage">
                         {repo.homepage && <a href={repo.homepage} target="_blank">Website Link</a>}
                       </div>
                       <div className="repositories__repo-star">
@@ -73,7 +73,7 @@ export default styled(Repositories)`
     color: #25303B;
   }
 
-  .repositories__repo-date {
+  .repositories__repo-homepage {
     color: #bbb;
     font-size: 10px;
   }
