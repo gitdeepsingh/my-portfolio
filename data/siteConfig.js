@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Welcome! I code for a living',
+  siteTitle: 'Hello folks and welcome to my personal portfolio!',
   siteDescription: `My portfolio resume`,
   keyWords: ['deepsingh', 'react', 'curriculum', 'deep singh', 'gatsby'],
   authorName: 'Deep Singh',
@@ -7,10 +7,10 @@ module.exports = {
   githubUsername: 'gitdeepsingh',
   npmUsername: 'deepsingh',
   authorAvatar: '/images/avatar.png',
-  authorDescription: `I am passinate about coding and love to explore how softwares are engineered.<br />
-                      Being in web development for more than 4 years, I always keep pace with new technologies.
-                      In 2019, I started exploring mobile apps and became fascinated by react-native. Throughout my career,
-                      I have worked in domains like Insurance, Healthcare, Banking and Finacial Services.<br />
+  authorDescription: `I am a Bengaluru based software developer who is passinate about coding and like to explore how softwares are engineered.<br />
+                      Being in web development for more than 5 years, I always keep pace with new technologies. I love javascript and everything else around it.
+                      A year back, I started exploring mobile apps and became fascinated by react-native. Throughout my career,
+                      I have worked for clients from Insurance, Healthcare, Banking and Finacial Services.<br />
                       During my leisure hours, I watch movies and play soccer.`,
   skills: [
     {
@@ -39,14 +39,25 @@ module.exports = {
   ],
   jobs: [
     {
+      company: "Legato Health Technologies",
+      begin: {
+        month: 'nov',
+        year: '2019'
+      },
+      duration: null,
+      occupation: "Software Engineer II",
+      description: "Working as a MER/AN stack developer on broker portal web app.(healthcare)"
+
+    },
+    {
       company: "Candela Labs",
       begin: {
         month: 'nov',
         year: '2018'
       },
-      duration: null,
+      duration: '1 year',
       occupation: "Software Engineer",
-      description: "Working as front-end developer for desktop and android applications for Insurance market."
+      description: "Worked as a front-end developer on web and android applications.(insurance)"
 
     }, {
       company: "Cognizant Technology Solutions",
@@ -56,14 +67,14 @@ module.exports = {
       },
       duration: '2 years 11 months',
       occupation: "Programmer Analyst",
-      description: "Development and integration of web applications for Healthcare and Banking and Financial Services domains."
+      description: "Worked as a front-end developer on web applications.(banking and financial services, healthcare)"
     },
     /* ... */
   ],
   npmPackages: [
     {
       name: 'react-simple-search',
-      description: 'A very simple search component for reactjs',
+      description: 'A convenient react component for searching through a given data set based on user input.',
       link: 'https://www.npmjs.com/package/react-simple-search'
     }
   ],
