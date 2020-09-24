@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Hello folks and welcome to my personal portfolio!',
+  siteTitle: 'Hello! Welcome to my portfolio',
   siteDescription: `My portfolio resume`,
   keyWords: ['deepsingh', 'react', 'curriculum', 'deep singh', 'gatsby'],
   authorName: 'Deep Singh',
@@ -7,33 +7,37 @@ module.exports = {
   githubUsername: 'gitdeepsingh',
   npmUsername: 'deepsingh',
   authorAvatar: '/images/avatar.png',
-  authorDescription: `I am a Bengaluru based software developer who is passinate about coding and like to explore how softwares are engineered.<br />
-                      Being in web development for more than 5 years, I always keep pace with new technologies. I love javascript and everything else around it.
+  authorDescription: `I am, a Bengaluru based software developer, passinate about coding and like to explore how softwares are engineered.<br />
+                      Being in web development for more than 5 years, I always keep pace with new technologies. I love javascript and everything around it.
                       A year back, I started exploring mobile apps and became fascinated by react-native. Throughout my career,
-                      I have worked for clients from Insurance, Healthcare, Banking and Finacial Services.<br />
-                      During my leisure hours, I watch movies and play soccer.`,
+                      I have worked for clients from Insurance, Healthcare, Banking and Finacial Services domains.<br />
+                      During my leisure hours, I like to watch movies, hangout with friends and play soccer.`,
   skills: [
     {
+      name: 'Javascript',
+      level: 90
+    },
+    {
       name: 'HTML',
-      level: 80
+      level: 90
     },
     {
       name: 'CSS',
-      level: 80
-    }, {
-      name: 'React',
-      level: 75
+      level: 90
     }, {
       name: 'Angular',
-      level: 50
-    }, {
-      name: 'Javascript',
-      level: 75
+      level: 70
     }, {
       name: 'React-Native',
-      level: 50
+      level: 60
+    }, {
+      name: 'React',
+      level: 85
     }, {
       name: 'NodeJs',
+      level: 70
+    }, {
+      name: 'GraphQL',
       level: 60
     },
   ],
